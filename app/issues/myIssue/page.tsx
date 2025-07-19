@@ -45,7 +45,7 @@ const MyIssuePage = async () => {
 
   return (
     <div>
-      <h1>Hello,</h1>
+      <h1>Hello, {userEmail}</h1>
       <h2>Your Assigned Issues:</h2>
 
       {assignedIssues.length === 0 ? (
